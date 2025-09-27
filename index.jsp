@@ -13,8 +13,18 @@
 <body>
 
 <header>
-    📊 Network Monitoring Dashboard
+    IP COre NMS Monitor
 </header>
+
+<!--..............QUICKMENU/SIDEBAR/LEFTSIDE.----------->
+<div class="container" id="sidebar">
+    <a href="index.jsp">Home</a>
+    <a href="report.jsp" target="_blank">95 Percentile</a>
+    <a href="tca/index.jsp" target="_blank">TCA Logs</a>
+    <a href="about.jsp" target="_blank">About</a>
+
+</div>
+
 <div class="container">
 
     <!--.......................CHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARTS......................----------->
@@ -52,13 +62,28 @@
     </table>
     </div>
 
-<!--..........FILTEEEEEEEEEEER &&&&&&&&&&& SUMMAAAAAAAAAAAAAAAAAAAAAAARY----------------------->    
+<!--.........COLUMMMCOLUMMMMMMMLCCCOLUMN---------->    
 <div class="column" id="parameters">
-    <h2>Quick Links</h2>
+    <h2>ALLOT Systems</h2>
     <li>
     <a href="report.jsp" target="_blank"> 95 Percentile</a>
     </li>
     </div>
+
+    <div class="column" id="parameters">
+    <h2>SW</h2>
+    <li>
+    <a href="report.jsp" target="_blank"> 95 Percentile</a>
+    </li>
+    </div>
+
+    <div class="column" id="parameters">
+    <h2>EPC</h2>
+    <li>
+    <a href="report.jsp" target="_blank"> 95 Percentile</a>
+    </li>
+    </div>
+
 </div>
 </body>
 </html>
