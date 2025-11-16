@@ -23,7 +23,7 @@
     }
 
     Map<String, Integer> pipeCounter = new HashMap<>();
-    String csvPath = application.getRealPath("logs.csv");
+    String csvPath = application.getRealPath("model/logs.csv");
 
     try (BufferedReader br = new BufferedReader(new FileReader(csvPath))) {
         String line;
